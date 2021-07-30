@@ -1,0 +1,8 @@
+type PaymentEvent @model {
+  id: ID!
+  userId: ID!
+  total: Float!
+  subTotal: Float
+  tip: Float
+  description: String
+}
